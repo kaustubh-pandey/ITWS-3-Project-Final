@@ -1,18 +1,51 @@
-# ITWS-3-Project-Final
+# Web GIS based IoT solutions for water management
 
-About:
 
-A Django based web site to collect and display sensor data and health of plants to users using Charts and Graphs.
+The aim of the project to save plants by minimum use of water.
 
-The sensors are attached to plants , using microcontroller and actuators automatic irrigation is provided to the plants which require water.
+ABOUT
+Hardware components required
 
-Real time data can be viewed on the web site along with plant location on map. 
+Aurduino
 
-Supports User privacy (a user can’t view the plants of other users). 
+GSM Module
 
-This webapp works along with some microcontroller like arduino or Raspberry PI 
+Soil Moisture sensor
 
-Requirements:
+Temperature Sensor
 
-Python3, Django
+Humidity Sensor
+
+Ultra sonic sensor
+
+We need to collect data from the sensors and then plot real-time graph using the sensors data.
+
+Software part:
+
+Django framework
+
+python
+
+Javascript
+
+Html
+
+CSS
+
+Json / rest framework
+
+Chartjs (To plot graphs)
+
+USE
+To run this project you need python, django and an additional framework (restframework).
+
+To install framework use:
+pip install djangorestframework
+
+To run this project simply run the python file manage.py in the folder.
+python manage.py runserver
+
+For guide: https://docs.djangoproject.com/en/2.0/intro/install/
+
+website link: http://itws3.pythonanywhere.com/
 
